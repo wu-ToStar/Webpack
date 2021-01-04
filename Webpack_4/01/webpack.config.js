@@ -65,6 +65,7 @@ module.exports = {
     compress: true,
     port: 3000,
     open: true,
+    
     //开启HRM
     hot: true,
     // 不要显示启动服务器日志信息
