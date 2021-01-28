@@ -62,6 +62,7 @@ module.exports = {
   mode: "development",
   devServer: {
     contentBase: resolve(__dirname, "build"),
+    inline: true,
     compress: true,
     port: 3000,
     open: true,
